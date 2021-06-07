@@ -106,6 +106,7 @@ main h2{
 
 .main-container p{
   margin: 25px 0;
+  line-height: 22px;
 }
 
 main ol li{
