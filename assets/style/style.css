@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: azure;
+  border-bottom: 1px solid grey;
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.header-top .logo{
+  display: flex;
+  align-items: center;
+}
+
+.header-top .logo img{
+  height: 35px;
+  margin: 0 10px 0 20px;
+}
+
+.header-top .logo a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.header-top .user{
+  display: flex;
+  align-items: center;
+}
+
+.header-top .user i{
+  cursor: pointer;
+}
+
+.header-top .user img{
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.header-bottom{
+  height: 35px;
+}
+
+.header-bottom ul{
+  margin-left: 20px;
+}
+
+.header-bottom li{
+  line-height: 35px;
+  display: inline;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.active{
+  color: blue;
+  padding-bottom: 6px;
+  border-bottom: 3px solid blue;
+}
+
+/* Main */
+main{
+  height: calc(100vh - 24px);
+  background-color: green;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  height: 24px;
+  background: #f5f5f5;
+  border-top: 1px solid #eee;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  background-color: sienna;
+}
+
+.footer-container .footer-nav ul{
+  list-style: none;
+}
+
+.footer-container .footer-nav li{
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer-lang select{
+  padding: 0 35px;
+}
+
+
