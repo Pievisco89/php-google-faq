@@ -10,7 +10,7 @@ header{
   position: fixed;
   height: 100px;
   width: 100%;
-  color: rgba(0,0,0,0.87);
+  color: #3c4043;
   background-color: white;
   border-bottom: 1px solid lightgray;
 }
@@ -90,6 +90,7 @@ main{
 main h2{
   font-weight: 500;
   font-size: 24px;
+  color: #3c4043;
 }
 
 .main-container{
@@ -100,7 +101,7 @@ main h2{
 
 .main-container .text{
   font-size: 14px;
-  color: rgba(0,0,0,0.87);
+  color: #3c4043;
 }
 
 .main-container p{
